@@ -25,37 +25,19 @@ export default function Loading(props){
 
     const fillAnim = {
         0: {
-            transform: [{ scaleY: 0 }]
+            height: "0%"
         },
         0.25: {
-            transform: [{ scaleY: 0 }]
+            height: "0%"
         },
         0.5: {
-            transform: [{ scaleY: 1 }]
+            height: "100%"
         },
         0.75: {
-            transform: [{ scaleY: 1 }]
+            height: "100%"
         },
         1: {
-            transform: [{ scaleY: 0 }]
-        }
-    };
-
-    const fillAnimTwo = {
-        0: {
-            height: 0
-        },
-        0.25: {
-            height: 0
-        },
-        0.5: {
-            height: 40
-        },
-        0.75: {
-            height: 40
-        },
-        1: {
-            height: 0
+            height: "0%"
         }
     };
     
@@ -71,7 +53,7 @@ export default function Loading(props){
             >
                 <Animatable.View
                     style={styles.loaderInner}
-                    animation={fillAnimTwo}
+                    animation={fillAnim}
                     duration={2000}
                     iterationCount="infinite"
                     easing="linear"

@@ -3,7 +3,6 @@ import { View } from "react-native"
 import { connect } from "react-redux"
 import { ScrollView, HayomYomCon, EnglishText, HebrewText } from "./styles"
 import Footer from "../footer/Footer"
-import Modal from "../issue-modal/IssueModal"
 import IssueModal from "../issue-modal/IssueModal"
 
 function Body(props) {
