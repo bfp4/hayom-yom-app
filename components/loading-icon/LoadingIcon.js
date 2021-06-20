@@ -4,7 +4,7 @@ import * as Animatable from "react-native-animatable"
 
 import constansts from "../../assets/constants"
 
-export default function Loading(props){
+export default function Loading(){
     const flipAnim = {
         0: {
             transform: [{rotate: "0deg"}]
@@ -42,7 +42,7 @@ export default function Loading(props){
     };
     
     return (
-        <View style={{...styles.loadingCon, height: props.size}}>
+        <View style={styles.loadingCon }>
             <Animatable.View 
                 style={styles.loader} 
                 animation={flipAnim}
@@ -68,7 +68,8 @@ export default function Loading(props){
 const styles = StyleSheet.create({
     loadingCon: {
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        flex: 1
     },
     loader: {
         width: 40,

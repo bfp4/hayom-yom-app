@@ -18,8 +18,8 @@ export default function App() {
 
   if (!fontsLoaded) {
     return (
-      <View>
-        <LoadingIcon size="100%" />
+      <View style={{height: "100%"}}>
+        <LoadingIcon />
       </View>
     );
   }

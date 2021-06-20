@@ -5,22 +5,21 @@ import LoadingIcon from "../loading-icon/LoadingIcon"
 import Header from "../header/Header"
 import Navigation from "../navigation/Navigation"
 import Body from "../body/Body"
-import Footer from "../footer/Footer"
-import { View, ScrollView } from 'react-native';
+import { View } from 'react-native';
 
 function Main(props){
     if(props.loading == true){
         return (
-            <View>
+            <View style={{height: "100%"}}>
                 <Header />
                 <Navigation />
-                <LoadingIcon size="70%" />
+                <LoadingIcon />
             </View>
         )
     }
 
     return (
-        <View>
+        <View style={{height: "100%"}}>
             <Header />
             <Navigation />
             <Body />

@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from "react"
-import { View } from "react-native"
+import React from "react"
+import { View, useWindowDimensions } from 'react-native';
 import { connect } from "react-redux"
 import { ScrollView, HayomYomCon, EnglishText, HebrewText } from "./styles"
-import Footer from "../footer/Footer"
-import IssueModal from "../issue-modal/IssueModal"
 
 function Body(props) {
-    const { english, hebrew, modalVisibility } = props
+    const { english, hebrew } = props
 
     return (
-        <View style={{height: "80%"}}>
-            <ScrollView contentContainerStyle={{flexGrow: 1, justifyContent: 'space-between', flexDirection: 'column'}}>
+        <View style={{flex: 1}}>
+            <ScrollView contentContainerStyle={{justifyContent: 'space-between', flexDirection: 'column'}}>
                 <HayomYomCon>
                     <EnglishText>
                         {english}
@@ -19,8 +17,6 @@ function Body(props) {
                         {hebrew}
                     </HebrewText>
                 </HayomYomCon>
-                <Footer />
-                <IssueModal visibility={modalVisibility} animationType="slide" />
             </ScrollView>
         </View>
     )
@@ -29,8 +25,7 @@ function Body(props) {
 function mapStateToProps(state) {
     return {
         english: state.nowObject.hayomYom.english,
-        hebrew: state.nowObject.hayomYom.hebrew,
-        modalVisibility: state.modalVisibility
+        hebrew: state.nowObject.hayomYom.hebrew
     }
 }
 
