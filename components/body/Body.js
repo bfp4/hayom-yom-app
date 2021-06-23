@@ -1,5 +1,5 @@
 import React from "react"
-import { View, useWindowDimensions } from 'react-native';
+import { View } from 'react-native';
 import { connect } from "react-redux"
 import { ScrollView, HayomYomCon, EnglishText, HebrewText } from "./styles"
 
