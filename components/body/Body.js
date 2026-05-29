@@ -1,14 +1,15 @@
 import React from "react"
 import { View } from 'react-native';
-import { connect } from "react-redux"
+import { useSelector } from "react-redux"
 import { ScrollView, HayomYomCon, EnglishText, HebrewText } from "./styles"
 
-function Body(props) {
-    const { english, hebrew } = props
+export default function Body() {
+    const english = useSelector(state => state.nowObject?.hayomYom?.english ?? "")
+    const hebrew = useSelector(state => state.nowObject?.hayomYom?.hebrew ?? "")
 
     return (
         <View style={{flex: 1}}>
-            <ScrollView contentContainerStyle={{justifyContent: 'space-between', flexDirection: 'column'}}>
+            <ScrollView contentContainerStyle={{justifyContent: 'space-between', flexDirection: 'column', paddingTop: 5, paddingBottom: 40}}>
                 <HayomYomCon>
                     <EnglishText>
                         {english}
@@ -21,12 +22,3 @@ function Body(props) {
         </View>
     )
 }
-
-function mapStateToProps(state) {
-    return {
-        english: state.nowObject?.hayomYom?.english ?? "",
-        hebrew: state.nowObject?.hayomYom?.hebrew ?? ""
-    }
-}
-
-export default connect(mapStateToProps)(Body)

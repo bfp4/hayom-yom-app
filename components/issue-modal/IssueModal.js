@@ -2,12 +2,13 @@ import React, { useState } from "react"
 import { TouchableWithoutFeedback  } from "react-native"
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome"
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
-import { connect } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import { changeVisibility } from "../../redux/actions";
 import { Modal, ModalContentCon, HeaderText, CloseModal, InputContainer, InputHeader, NameInput, IssueInputCon, IssueInput, LimitText, Submit, SubmitText } from "./styles"
 
-function IssueModal(props){
-    const { visibility, dispatch } = props
+function IssueModal(){
+    const visibility = useSelector(state => state.modalVisibility)
+    const dispatch = useDispatch()
     // eslint-disable-next-line no-unused-vars -- preserved for upcoming email submission
     const [name, setName] = useState("")
     const [message, setMessage] = useState("")
@@ -72,10 +73,4 @@ function IssueModal(props){
     )
 }
 
-function mapDispatchToProps(dispatch) {
-    return {
-        dispatch: dispatch
-    }
-}
-
-export default connect(mapDispatchToProps)(IssueModal)
+export default IssueModal

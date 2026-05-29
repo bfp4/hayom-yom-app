@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from "react-redux"
+import { useSelector } from "react-redux"
 
 import LoadingIcon from "../loading-icon/LoadingIcon"
 import Header from "../header/Header"
@@ -7,8 +7,10 @@ import Navigation from "../navigation/Navigation"
 import Body from "../body/Body"
 import { View } from 'react-native';
 
-function Main(props){
-    if(props.loading == true){
+function Main(){
+    const loading = useSelector(state => state.loading)
+
+    if(loading == true){
         return (
             <View style={{height: "100%"}}>
                 <Header />
@@ -27,10 +29,4 @@ function Main(props){
     )
 }
 
-function mapStateToProps(state){
-    return {
-        loading: state.loading
-    }
-}
-
-export default connect(mapStateToProps)(Main)
+export default Main

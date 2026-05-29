@@ -3,11 +3,11 @@ import constants from "../../assets/constants"
 
 export const HeaderCon = styled.View`
     width: 100%;
-    height: 90px;
+    height: 100px;
     display: flex;
     align-items: center;
     background: ${constants.colors.blues};
-    padding-top: 36px;
+    padding-top: 48px;
 `
 
 export const Title = styled.Text`

@@ -1,10 +1,10 @@
 import React from "react"
 import { FooterContainer, FooterText } from "./styles"
-import { connect } from "react-redux"
+import { useDispatch } from "react-redux"
 import { changeVisibility } from "../../redux/actions";
 
-function Footer(props){
-    const { dispatch } = props
+function Footer(){
+    const dispatch = useDispatch()
     const handleVisibility = () => dispatch(changeVisibility(true))
     return (
         <FooterContainer delayPressIn={0} onPress={handleVisibility}>
@@ -15,10 +15,4 @@ function Footer(props){
     );
 }
 
-function mapDispatchToProps(dispatch) {
-    return {
-        dispatch: dispatch
-    }
-}
-
-export default connect(mapDispatchToProps)(Footer)
+export default Footer
