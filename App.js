@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import { useFonts } from "@use-expo/font"
+import React from 'react';
+import { useFonts } from "expo-font"
 import { Provider } from "react-redux"
 import store from "./redux/store"
-import firebaseConfig from "./firebaseConfig"
-import * as firebase from "firebase"
-import useAddFirestore from "./hooks/useAddFirestore"
 
 import LoadingIcon from "./components/loading-icon/LoadingIcon"
 import Main from "./components/main/Main"

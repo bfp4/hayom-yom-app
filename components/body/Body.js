@@ -24,8 +24,8 @@ function Body(props) {
 
 function mapStateToProps(state) {
     return {
-        english: state.nowObject.hayomYom.english,
-        hebrew: state.nowObject.hayomYom.hebrew
+        english: state.nowObject?.hayomYom?.english ?? "",
+        hebrew: state.nowObject?.hayomYom?.hebrew ?? ""
     }
 }
 

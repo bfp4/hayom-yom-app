@@ -15,19 +15,25 @@ const originalState = {
         month: getMonth + 1,
         year: year
     },
+    nowDateText: today,
+    nowDate: {
+        day: day,
+        month: getMonth + 1,
+        year: year
+    },
     loading: true,
     modalVisibility: false
 }
 
-export default reducer = (state = originalState, action) => {
+const reducer = (state = originalState, action) => {
     switch (action.type) {
-        case "GET_NEW_DATE":
+        case "GET_NEW_DATE": {
             const nowObj = new Date()
             nowObj.setDate(nowObj.getDate() + action.payload.daysFromToday)
             const nowDay = nowObj.getDate()
-            const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+            const nowMonthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
             const getNowMonth = nowObj.getMonth()
-            const nowMonth = monthNames[getNowMonth]
+            const nowMonth = nowMonthNames[getNowMonth]
             const nowYear = nowObj.getFullYear()
             const nowDate = `${nowMonth} ${nowDay}, ${nowYear}`
             return {
@@ -39,6 +45,7 @@ export default reducer = (state = originalState, action) => {
                     year: nowYear
                 }
             }
+        }
         case "CHANGE_LOADING":
             return {
                 ...state,
@@ -49,7 +56,7 @@ export default reducer = (state = originalState, action) => {
                 ...state,
                 modalVisibility: action.payload.bool
             }
-        case "GET_DATA":
+        case "GET_DATA": {
             const nowHebrewDate = {
                 day: action.payload.day,
                 month: action.payload.month,
@@ -65,7 +72,10 @@ export default reducer = (state = originalState, action) => {
                 nowHebrewDate: nowHebrewDate,
                 nowHebrewDateText: nowHebrewDateText
             }
+        }
         default:
             return state;
     }
 }
+
+export default reducer

@@ -5,20 +5,14 @@
     "version": "3.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "sdkVersion": "41.0.0",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
+    "scheme": "hayomyomapp",
+    "userInterfaceStyle": "light",
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.levertron.hayomyomapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +25,8 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": ""
+    "plugins": [
+      "expo-font"
+    ]
   }
 }

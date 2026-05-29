@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import axios from "axios"
-import { TouchableNativeFeedback } from "react-native"
+import { Pressable, View } from "react-native"
 import { NavigationCon, DateText } from "./styles"
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome"
 import { faAngleDoubleRight, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons'
@@ -26,11 +26,11 @@ function Navigation(props) {
         dispatch(actions.changeLoading(true))
         dispatch(actions.changeVisibility(false))
         dispatch(actions.getNewDate(daysFromToday))
-    }, [daysFromToday])
+    }, [daysFromToday]) // eslint-disable-line react-hooks/exhaustive-deps
 
     useEffect(() => {
         if(!nowDateText) return
-        (async () => {
+        ;(async () => {
             try {
                 const res = await axios(`https://www.hebcal.com/converter?cfg=json&gy=${nowDate.year}&gm=${nowDate.month}&gd=${nowDate.day}&g2h=1`)
                 const data = await res.data
@@ -40,31 +40,26 @@ function Navigation(props) {
                 console.error(error)
             }
         })()
-    }, [nowDateText])
+    }, [nowDateText]) // eslint-disable-line react-hooks/exhaustive-deps
 
     return (
         <NavigationCon>
-            <TouchableNativeFeedback
-                background={TouchableNativeFeedback.Ripple(constants.colors.blues, true)}
-                onPress={dayBack}
-                delayPressIn={0}
-            >
-                <FontAwesomeIcon icon={faAngleDoubleLeft} size={32} />
-            </TouchableNativeFeedback>
+            <Pressable onPress={dayBack} hitSlop={8}>
+                <View>
+                    <FontAwesomeIcon icon={faAngleDoubleLeft} size={32} color={constants.colors.blues} />
+                </View>
+            </Pressable>
 
             <Card>
                 <DateText>{nowDateText}{"\n"}{nowHebrewDateText}</DateText>
             </Card>
 
-            <TouchableNativeFeedback
-                background={TouchableNativeFeedback.Ripple(constants.colors.blues, true)}
-                onPress={dayForward}
-                delayPressIn={0}
-            >
-                <FontAwesomeIcon icon={faAngleDoubleRight} size={32} />
-            </TouchableNativeFeedback>
-        </NavigationCon>
-    )
+            <Pressable onPress={dayForward} hitSlop={8}>
+                <View>
+                    <FontAwesomeIcon icon={faAngleDoubleRight} size={32} color={constants.colors.blues} />
+                </View>
+            </Pressable>
+        </NavigationCon>    )
 }
 
 function mapStateToProps(state) {

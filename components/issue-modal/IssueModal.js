@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome"
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import { connect } from "react-redux"
 import { changeVisibility } from "../../redux/actions";
-import useAddFirestore from "../../hooks/useAddFirestore"
 import { Modal, ModalContentCon, HeaderText, CloseModal, InputContainer, InputHeader, NameInput, IssueInputCon, IssueInput, LimitText, Submit, SubmitText } from "./styles"
 
 function IssueModal(props){
     const { visibility, dispatch } = props
+    // eslint-disable-next-line no-unused-vars -- preserved for upcoming email submission
     const [name, setName] = useState("")
     const [message, setMessage] = useState("")
 
@@ -19,11 +19,7 @@ function IssueModal(props){
     }
 
     function handleSubmit(){
-        const issue = {
-            name: name,
-            message: message
-        }
-        useAddFirestore(issue)
+        // TODO: send issue via email — submission transport not yet implemented
         handleVisibility()
     }
 
