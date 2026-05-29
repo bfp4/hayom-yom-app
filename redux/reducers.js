@@ -51,11 +51,6 @@ const reducer = (state = originalState, action) => {
                 ...state,
                 loading: action.payload.bool
             }
-        case "CHANGE_VISIBILITY":
-            return {
-                ...state,
-                modalVisibility: action.payload.bool
-            }
         case "GET_DATA": {
             const nowHebrewDate = {
                 day: action.payload.day,

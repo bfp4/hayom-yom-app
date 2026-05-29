@@ -94,9 +94,11 @@ function Navigation() {
                 </View>
             </Pressable>
 
-            <Card>
-                <DateText>{displayDateText}{"\n"}{displayHebrewDateText}</DateText>
-            </Card>
+            <Pressable onPress={() => setDaysFromToday(0)} hitSlop={8} disabled={loading} style={{ width: '50%', marginHorizontal: 15 }}>
+                <Card>
+                    <DateText>{displayDateText}{"\n"}{displayHebrewDateText}</DateText>
+                </Card>
+            </Pressable>
 
             <Pressable onPress={dayForward} hitSlop={8} disabled={loading}>
                 <View>

@@ -26,12 +26,3 @@ export const changeLoading = bool => {
         }
     }
 }
-
-export const changeVisibility = bool => {
-    return {
-        type: "CHANGE_VISIBILITY",
-        payload: {
-            bool: bool
-        }
-    }
-}
