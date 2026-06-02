@@ -4,8 +4,6 @@ A cross-platform React Native app for reading the daily **Hayom Yom** in English
 
 Built with **Expo SDK 54**, **React Native**, and **Redux**, the app provides a simple mobile-first reading experience with Hebrew date conversion powered by the Hebcal API.
 
-[View on Google Play](https://play.google.com/store/apps/details?id=com.levertron.hayomyomapp)
-
 ## Overview
 
 Hayom Yom App helps users access the daily Hayom Yom entry from their phone. The app opens to today's reading, displays the Gregorian and Hebrew dates, and lets users move backward or forward by day.
