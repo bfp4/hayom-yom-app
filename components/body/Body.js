@@ -1,5 +1,6 @@
 import React from "react"
 import { View } from "react-native"
+import { useFonts } from "expo-font"
 import { useSelector } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome"
 import { faBookmark, faShareNodes } from "@fortawesome/free-solid-svg-icons"
@@ -23,6 +24,10 @@ function TextDivider() {
 }
 
 export default function Body() {
+    const [fontsLoaded] = useFonts({
+        "lemonada-bold": require("../../assets/fonts/Lemonada-SemiBold.ttf"),
+        "lemonada": require("../../assets/fonts/Lemonada-Regular.ttf"),
+    })
     const english = useSelector(state => state.nowObject?.hayomYom?.english ?? "")
     const hebrew = useSelector(state => state.nowObject?.hayomYom?.hebrew ?? "")
     const nowDateText = useSelector(state => state.nowDateText)
@@ -80,15 +85,15 @@ export default function Body() {
                 <HayomYomCon $layout={layout}>
                     {layout === TEXT_LAYOUT.hebrewOverEnglish ? (
                         <>
-                            <HebrewText $stacked={stacked}>{hebrew}</HebrewText>
+                            <HebrewText $stacked={stacked} $fontLoaded={fontsLoaded}>{hebrew}</HebrewText>
                             {stacked && <TextDivider />}
-                            <EnglishText $stacked={stacked}>{english}</EnglishText>
+                            <EnglishText $stacked={stacked} $fontLoaded={fontsLoaded}>{english}</EnglishText>
                         </>
                     ) : (
                         <>
-                            <EnglishText $stacked={stacked}>{english}</EnglishText>
+                            <EnglishText $stacked={stacked} $fontLoaded={fontsLoaded}>{english}</EnglishText>
                             {stacked && <TextDivider />}
-                            <HebrewText $stacked={stacked}>{hebrew}</HebrewText>
+                            <HebrewText $stacked={stacked} $fontLoaded={fontsLoaded}>{hebrew}</HebrewText>
                         </>
                     )}
                 </HayomYomCon>

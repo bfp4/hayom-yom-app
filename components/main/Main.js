@@ -35,7 +35,7 @@ const linking = {
     prefixes: ["hayomyomapp://"],
     config: {
         screens: {
-            Today: "today",
+            "Hayom Yom": "today",
             Favorites: "favorites",
             Settings: "settings",
         },

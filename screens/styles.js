@@ -12,30 +12,63 @@ export const ScreenContent = styled.ScrollView`
 `
 
 export const EmptyText = styled.Text`
-    font-family: 'lemonada';
     font-size: 16px;
     color: ${constants.colors.darkGray};
     text-align: center;
     margin-top: 40px;
 `
 
-export const FavoriteItem = styled.Pressable`
+export const FavoriteYearSection = styled.View`
+    margin-bottom: 8px;
+`
+
+export const FavoriteYearToggle = styled.Pressable`
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     border: 2px solid ${constants.colors.blues};
-    border-radius: 10px;
-    padding: 14px;
-    margin-bottom: 12px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    background: rgba(2, 105, 161, 0.06);
+`
+
+export const FavoriteYearToggleLeft = styled.View`
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+`
+
+export const FavoriteYearTitle = styled.Text`
+    font-size: 16px;
+    font-weight: 600;
+    color: ${constants.colors.blues};
+`
+
+export const FavoriteYearCount = styled.Text`
+    font-size: 14px;
+    color: ${constants.colors.darkGray};
+`
+
+export const FavoriteYearItems = styled.View`
+    padding-top: 8px;
+    padding-left: 4px;
+`
+
+export const FavoriteItem = styled.Pressable`
+    border: 1px solid ${constants.colors.lightGray};
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
 `
 
 export const FavoriteDate = styled.Text`
-    font-family: 'lemonada-bold';
-    font-size: 16px;
+    font-size: 14px;
     color: black;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 `
 
 export const FavoritePreview = styled.Text`
-    font-family: 'lemonada';
-    font-size: 14px;
+    font-size: 13px;
     color: ${constants.colors.darkGray};
 `
 
@@ -44,14 +77,12 @@ export const SettingsSection = styled.View`
 `
 
 export const SettingsLabel = styled.Text`
-    font-family: 'lemonada-bold';
     font-size: 16px;
     color: black;
     margin-bottom: 8px;
 `
 
 export const SettingsDescription = styled.Text`
-    font-family: 'lemonada';
     font-size: 14px;
     color: ${constants.colors.darkGray};
     margin-bottom: 16px;
@@ -65,7 +96,6 @@ export const TimeButton = styled.Pressable`
 `
 
 export const TimeButtonText = styled.Text`
-    font-family: 'lemonada-bold';
     font-size: 18px;
     color: ${constants.colors.blues};
 `
@@ -79,7 +109,6 @@ export const LayoutOption = styled.Pressable`
 `
 
 export const LayoutOptionText = styled.Text`
-    font-family: 'lemonada-bold';
     font-size: 16px;
     color: ${({ $selected }) => ($selected ? constants.colors.blues : constants.colors.darkGray)};
 `

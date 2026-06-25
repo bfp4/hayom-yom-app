@@ -4,6 +4,6 @@ export const navigationRef = createNavigationContainerRef()
 
 export function navigateToToday() {
     if (navigationRef.isReady()) {
-        navigationRef.navigate("Today")
+        navigationRef.navigate("Hayom Yom")
     }
 }

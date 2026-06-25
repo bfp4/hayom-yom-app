@@ -13,13 +13,13 @@ export const HayomYomCon = styled.View`
 `
 
 export const EnglishText = styled.Text`
-    font-family: 'lemonada';
+    font-family: ${({ $fontLoaded }) => ($fontLoaded ? "lemonada" : undefined)};
     flex: ${({ $stacked }) => ($stacked ? "none" : "1")};
     width: ${({ $stacked }) => ($stacked ? "100%" : "auto")};
 `
 
 export const HebrewText = styled.Text`
-    font-family: 'lemonada-bold';
+    font-family: ${({ $fontLoaded }) => ($fontLoaded ? "lemonada-bold" : undefined)};
     flex: ${({ $stacked }) => ($stacked ? "none" : "1")};
     width: ${({ $stacked }) => ($stacked ? "100%" : "auto")};
 `

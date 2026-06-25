@@ -109,9 +109,6 @@ export default function CalendarModal({ visible, initialDate, onClose, onSelectD
                             selectedDayTextColor: "#ffffff",
                             arrowColor: constants.colors.blues,
                             monthTextColor: "black",
-                            textDayFontFamily: "lemonada",
-                            textMonthFontFamily: "lemonada-bold",
-                            textDayHeaderFontFamily: "lemonada",
                         }}
                         enableSwipeMonths
                         renderHeader={() => null}

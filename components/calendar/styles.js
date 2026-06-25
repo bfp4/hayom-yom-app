@@ -19,7 +19,6 @@ export const ModalHeader = styled.View`
 `
 
 export const ModalTitle = styled.Text`
-    font-family: 'lemonada-bold';
     font-size: 18px;
     color: black;
 `
@@ -37,7 +36,6 @@ export const TodayButton = styled.Pressable`
 `
 
 export const TodayButtonText = styled.Text`
-    font-family: 'lemonada-bold';
     font-size: 16px;
     color: ${constants.colors.blues};
 `
@@ -60,7 +58,6 @@ export const SelectorButton = styled.Pressable`
 `
 
 export const SelectorButtonText = styled.Text`
-    font-family: 'lemonada-bold';
     font-size: 14px;
     color: ${constants.colors.blues};
 `
@@ -78,7 +75,6 @@ export const PickerOption = styled.Pressable`
 `
 
 export const PickerOptionText = styled.Text`
-    font-family: 'lemonada';
     font-size: 15px;
     color: ${props => props.$selected ? "white" : "black"};
     text-align: center;

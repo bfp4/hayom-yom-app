@@ -67,7 +67,7 @@ export async function scheduleDailyNotification(hour, minute) {
         content: {
             title: "Hayom Yom",
             body: "Today's Hayom Yom is ready",
-            data: { screen: "Today" },
+            data: { screen: "Hayom Yom" },
         },
         trigger: {
             type: Notifications.SchedulableTriggerInputTypes.DAILY,

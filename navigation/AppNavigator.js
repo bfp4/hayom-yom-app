@@ -34,12 +34,11 @@ export default function AppNavigator() {
                 tabBarActiveTintColor: constants.colors.blues,
                 tabBarInactiveTintColor: constants.colors.darkGray,
                 tabBarLabelStyle: {
-                    fontFamily: "lemonada",
                     fontSize: 11,
                 },
                 tabBarIcon: ({ color, size }) => {
                     const icons = {
-                        Today: faBookOpen,
+                        "Hayom Yom": faBookOpen,
                         Favorites: faHeart,
                         Settings: faBell,
                     }
@@ -54,7 +53,7 @@ export default function AppNavigator() {
             })}
         >
             <Tab.Screen
-                name="Today"
+                name="Hayom Yom"
                 component={withHeader(HomeScreen)}
             />
             <Tab.Screen

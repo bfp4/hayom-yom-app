@@ -11,7 +11,7 @@ export const HeaderCon = styled.View`
 `
 
 export const Title = styled.Text`
-    font-family: 'lemonada-bold';
+    font-family: ${({ $fontLoaded }) => ($fontLoaded ? "lemonada-bold" : undefined)};
     font-size: 24px;
     color: black;
 `
