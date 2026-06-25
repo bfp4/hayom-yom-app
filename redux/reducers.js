@@ -1,49 +1,45 @@
 import full from "../hayomYomsFull.json"
+
+const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+function buildDateState(targetDate) {
+    const day = targetDate.getDate()
+    const monthIndex = targetDate.getMonth()
+    const month = monthNames[monthIndex]
+    const year = targetDate.getFullYear()
+    const dateText = `${month} ${day}, ${year}`
+
+    return {
+        nowDateText: dateText,
+        nowDate: {
+            day,
+            month: monthIndex + 1,
+            year
+        }
+    }
+}
+
 const date = new Date()
-const day = date.getDate()
-const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
-const getMonth = date.getMonth()
-const month = monthNames[getMonth]
-const year = date.getFullYear()
-const today = `${month} ${day}, ${year}`
+const todayState = buildDateState(date)
 
 const originalState = {
     fullArray: full,
-    todayText: today,
-    today: {
-        day: day,
-        month: getMonth + 1,
-        year: year
-    },
-    nowDateText: today,
-    nowDate: {
-        day: day,
-        month: getMonth + 1,
-        year: year
-    },
+    todayText: todayState.nowDateText,
+    today: todayState.nowDate,
+    nowDateText: todayState.nowDateText,
+    nowDate: todayState.nowDate,
     loading: true,
     modalVisibility: false
 }
 
 const reducer = (state = originalState, action) => {
     switch (action.type) {
-        case "GET_NEW_DATE": {
-            const nowObj = new Date()
-            nowObj.setDate(nowObj.getDate() + action.payload.daysFromToday)
-            const nowDay = nowObj.getDate()
-            const nowMonthNames = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
-            const getNowMonth = nowObj.getMonth()
-            const nowMonth = nowMonthNames[getNowMonth]
-            const nowYear = nowObj.getFullYear()
-            const nowDate = `${nowMonth} ${nowDay}, ${nowYear}`
+        case "SET_DATE": {
+            const { day, month, year } = action.payload
+            const targetDate = new Date(year, month - 1, day)
             return {
                 ...state,
-                nowDateText: nowDate,
-                nowDate: {
-                    day: nowDay,
-                    month: getNowMonth + 1,
-                    year: nowYear
-                }
+                ...buildDateState(targetDate)
             }
         }
         case "CHANGE_LOADING":

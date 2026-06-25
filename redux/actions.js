@@ -1,12 +1,7 @@
-export const getNewDate = daysFromToday => {
-    return {
-        type: "GET_NEW_DATE",
-        payload: {
-            daysFromToday: daysFromToday
-        }
-    }
-}
-
+export const setDate = (day, month, year) => ({
+    type: "SET_DATE",
+    payload: { day, month, year },
+})
 export const getData = (day, month, year) => {
     return {
         type: "GET_DATA",

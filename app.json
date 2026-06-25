@@ -2,7 +2,7 @@
   "expo": {
     "name": "hayom-yom-app",
     "slug": "hayom-yom-app",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "hayomyomapp",
@@ -26,7 +26,20 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-font"
-    ]
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#0269a1"
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "763d0577-0ba4-4369-9a19-92d177c8c3cf"
+      }
+    }
   }
 }

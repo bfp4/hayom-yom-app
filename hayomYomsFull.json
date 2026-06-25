@@ -111,6 +111,16 @@
   },
   {
     "hayomYom": {
+      "english": "The sins of Israel in the time of the Greeks were: Fraternizing with the Greeks, studying their culture, profaning Shabbat and Holy Days, eating t'reifa and neglecting Jewish tahara.1 The punishment-tribulation was the spiritual destruction2 of the Sanctuary, death, and slavery in exile. Through teshuva3 and mesirat nefesh,4 that great, miraculous Divine salvation - the miracle of Chanuka - came about.",
+      "hebrew": "די עבירות פון די אידען [אין דער צייט פון די יונים] זיינען געווען: דאס חבר'ן זיך מיט די יונים, לערנען זייער קולטור, חילול שבת ומועד, עסען טריפות, ניט היטן די אידישע טהרה. די שטראף-צרה איז געווען דער גייסטיגער חורבן פון בית המקדש, הריגה און שקלאפערי אין גלות. דורך תשובה און מסירת נפש איז געקומען די גרויסע ג-טליכע וואונדער-ישועה, דער נס חנוכה."
+    },
+    "date": {
+      "month": "Kislev",
+      "day": "30"
+    }
+  },
+  {
+    "hayomYom": {
       "english": "It is customary that one not davening with a minyan says the opening (p. 241) and closing (p. 245) b'rachot of Hallel even on days when \"half Hallel\" is said. In the concluding paragraph, yehal'lucha (p.245) omit the word \"Al.\" All tefillin should be worn (then, later, taken off) before Musaf (p. 245), but the daily Torah lessons are studied after concluding the entire service. ",
       "hebrew": "נוהגים אשר היחיד מברך - בהלל - תחלה וסוף גם בימים שאין גומרים בהם את ההלל. הנוסח שאומרים הוא: יהללוך ה\"א [ה' אלוקינו] כל מעשיך, בהשמטת תיבת \"על\". כל התפילין מניחים קודם מוסף, אבל השיעורים לומדים אחר סיום כל התפלה."
     },
@@ -970,7 +980,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "In the sh'ma before retiring (p. 118): On Shabbat and Festivals we do not say Ribono shel olam or lam'natzei'ach (p. 122). But we do say them on other days that tachanun is not said. After the three paragraphs of sh'ma (p. 120), add the word \"emet.\" Ya'alzu is said once. Hinei and y'varech'cha are said three times. In tikun chatzot do not say lam'natzei'ach...b'vo on days tachanun is omitted.",
       "hebrew": "בקריאת שמע שעל המטה רבוש\"ע [רבונו של עולם] הריני מוחל וכן למנצח גו' בבוא - א\"א [אין אומרים] בשויו\"ט [בשבת ויום טוב], אבל צ\"ל [צריך לומר] בשאר ימים שא\"א [שאין אומרים] בהם תחנון. בסיום הג' פרשיות אומרים תיבת \"אמת\". יעלזו חסידים - פעם אחת, הנה מטתו - ג\"פ [ג' פעמים], יברכך - ג\"פ [ג' פעמים]. בתקון חצות א\"א [אין אומרים] למנצח גו' בבוא בימים שא\"א [שאין אומרים] בהם תחנון."
     },
@@ -980,7 +990,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "In responding to l'chayim there are two versions: (a.) L'chayim tovim ul'shalom, \"for good life, and for peace.\" The reason for this blessing is that the first time drinking wine is mentioned in the Torah, there were undesirable results. \"Noach began etc.\" also, the Tree of Knowledge was a grapevine. Therefore we extend the blessing that this wine be for a good life. (b.) The Maggid of Mezritch used to respond l'chayim velivracha. Once at a farbrengen, the Alter Rebbe responded l'chayim velivracha. After the farbrengen Chassidim discussed this expression, which they heard then for the first time. One chassid proposed: Since \"When wine enters, the secret comes out,\" which in avoda signifies that the emotions are revealed, we need a b'racha for this; the expression is l'chayim velivracha, and \"livracha\" may be read, leiv racha, a sensitive heart. The Tzemach Tzedek commented: Such an interpretation could be proposed only by a chassid who has davened and labored in avoda for thirty years.",
       "hebrew": "באמירת לחיים יש שתי נוסחאות: א) לחיים טובים ולשלום, וטעם הברכה - להיות כי בשתית היין הנזכרת בפעם הראשונה בתורה היו תוצאות לא טובים - ויחל נח גו', ועץ הדעת גפן היה, ולכן מברכים שיין זה יהיה לחיים טובים.\n\nב) הרב המגיד ממעזריטש היה עונה לחיים ולברכה. פעם בהתועדות שהיה נוכח רבינו הזקן, ענה רבינו הזקן: לחיים ולברכה. אחרי ההתועדות שוחחו החסידים בטעם נוסח זה, ששמעהו אז פעם הראשונה. אחד החסידים אמר, אשר להיות כי נכנס יין יצא סוד, ובעבודה הוא התגלות המדות, לכן זקוקים לברכה. והנוסח הוא \"לחיים ולברכה\" - אותיות לב-רכה. הצ\"צ [הצמח צדק] אמר ע\"ז [על זה]: דאס קען זאגען א חסיד, וואס האט געדאווענט און געטאן אין עבודה דרייסיג יאהר."
     },
@@ -990,7 +1000,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "My father said: A chassid creates an environment. If he does not, he had better check his own baggage carefully, to see whether his own affairs are in order. The very fact that he fails to create an environment should make him as broken as a splinter. He must demand of himself: What am I doing in this world?",
       "hebrew": "אאמו\"ר [אדוני אבי מורי ורבי] אמר: א חסיד מאכט א סביבה. אויב ניט, דארף ער גוט א טאפ טאן בא זיך אין פעקל, וואס טוט זיך מיט איהם אליין. און דאס אליין וואס ער מאכט ניט קיין סביבה - דארף איהם צוברעכען ווי א קינעלע (קיסם). און ער דארף פרעגען בא זיך אליין: וואס טו איך אויף דער וועלט?"
     },
@@ -1000,133 +1010,133 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "In Yaaleh v'yavo (p. 57) zachreinu...bo, ufakdeinu vo",
       "hebrew": "ביעלה ויבוא: זכרנו ה\"א [ה' אלוקינו] בו - בית דגושה - ופקדנו בו - בית רפוי'."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 1"
+      "month": "Adar II",
+      "day": "1"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "A b'racha must have a hold in something, just as rain benefits only the plowed and sown field, and early and later heavy rains benefit the crops of field or vine. But a waste field, unplowed and unsown, will benefit from neither soft rain, nor the early or later heavy rains.",
       "hebrew": "הברכה צריכה לאיזה דבר שתאחז בו, וכמו המטר על שדה חרושה וזרועה, או היורה ומלקוש על תבואת השדה והכרם. אבל בשדה בור לא חרושה ולא זרועה, אין המטר יורה ומלקוש מביאים תועלת."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 2"
+      "month": "Adar II",
+      "day": "2"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "The Tzemach Tzedek told a chassid who had mastered the entire Talmud and related works and had a profound grasp of Chassidus: Kabalat ol transforms one's being. When a simple servant serves out of kabalat ol you can see that he bears the yoke of service even when he sleeps. When a pre-eminent savant and brilliant scholar acquires this sort of kabalat ol, even he can attain the height and value of the simple, sincere person who has mesirat nefesh - total devotion, self-sacrifice.",
       "hebrew": "מענה הצ\"צ [הצמח צדק] לחסיד בקי בש\"ס כו' ומשכיל גדול בחסידות: קבלת עול איז משנה דעם מהות. דורך קבלת עול פון א עבד פשוט, וואס בשעת ער שלאפט איז אויך ניכר דער עול העבדות זיינער, קען אפילו א למדן און א גאון אויך קומען צו דער מעלה און חשיבות פון א פראסט - תמימות'דיקער מסירת-נפש איד."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 3"
+      "month": "Adar II",
+      "day": "3"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "When the Mitteler Rebbe would say Chassidus, there was a perfect hush. Still he would intersperse the Chassidus with, \"Sha, sha!\" My father explained that this was to still the gushing of his intellect. With this he explained the expression in Zohar: The venerable sage whose mind is concealed, for it is still and tranquil.",
       "hebrew": "צו חסידות ביים מיטעלען רבי'ן, איז געווען זייער שטיל, דאך פלעגט ער בשעת חסידות זאגען: שא, שא.\nדער טאטע האט עס ערקלערט, אז דאס איז געווען אויף להשקיט נביעת המוחין. און האט מיט דעם מבאר געווען דעם מאמר הזהר סבא דעתוהי סתים דשקיט ושכיך."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 4"
+      "month": "Adar II",
+      "day": "4"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Studying Talmud and related works, studying Chassidus, and actual avoda, are all imperative. Not only can there be no thought of one superseding or being superseded by the other, on the contrary, their relationship is symbiotic, mutually enriching: An ignorant person cannot be a chassid, so the study of Talmud and halacha is an absolute necessity. Who is a chassid? He who conducts himself with piety toward his Creator, so there must be the study of Chassidus, and the ultimate purpose of all study is, after all, actual avoda.",
       "hebrew": "לימוד הנגלה לימוד החסידות ועבודה בפועל, כולם כאחד מוכרחים המה. ולא זו בלבד דאינו שייך לומר שהאחד ידחה או יודחה מפני חברו, אלא אדרבא הם מסייעים זה לזה, וכמאמר ולא עם הארץ חסיד - שצריך להיות לימוד הנגלה. איזהו חסיד המתחסד עם קונו - שצריך להיות לימוד החסידות, ותכלית הלימוד הלא הוא העבודה בפועל."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 5"
+      "month": "Adar II",
+      "day": "5"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "It is a tradition among the elders of anash that the Tanya is a compilation of words of counsel given by the Alter Rebbe to anash at yechidus during the years 5540-5550 (1780-1790). In the summer of 5552 (1792) he began arranging the Tanya in the form it now has. A year later, there were already numerous copies, and in time, there were corruptions of the text and even falsifications. For that reason the Rebbe then moved quickly to have it printed. Another version: For twenty years the Rebbe wrote his work, the Tanya, painstakingly examining every last word. By the year 5555 (1795) the text was pure and clarified and he granted permission to copy it. When copies became numerous and corrupted he had it printed. The Tzemach Tzedek related that on the first Rosh Hashana of his life (in 5550, 1789) the Alter Rebbe spoke on the statement in the Talmud, He is administered an oath, Be a tzadik... This discourse is in fact the first three chapters of Tanya.",
       "hebrew": "מקובל אצל זקני אנ\"ש [אנשי שלומינו]: ספר התניא הוא לקוטי עצות מה שענה רבינו הגדול לאנ\"ש [לאנשי שלומינו] על יחידות בשנות תק\"מ-תק\"ן. בקיץ תקנ\"ב התחיל לסדר את ספר התניא בצורתו כמו שהוא עתה לפנינו. תקנ\"ג כבר היו העתקות רבות ממנו, ובמשך הזמן נשתבשו, וגם התחילו לזייפו. ומהאי טעמא נזדרז רבינו למסרו לדפוס. יש נ\"א [נוסח אחר]: עשרים שנה כתב רבינו את ספרו התניא, ודייק בכל תיבה ותיבה. בשנת תקנ\"ה כבר היה צרוף וזקוק, ואז נתן רשות להעתיקו, וכשרבו ההעתקות ונשתבשו מסרו לדפוס.\n\nהצ\"צ [הצמח צדק] סיפר אשר, בראש השנה הראשונה לחייו - שנת תק\"ן - אמר רבינו הגדול דרוש משביעין אותו תהי צדיק וכו', והוא הוא שלשת פרקים הראשונים של ספר התניא."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 6"
+      "month": "Adar II",
+      "day": "6"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Walking in the street one must think words of Torah. Whether to actually pronounce the words depends on the place, if one is permitted - according to Torah law - to utter words of Torah there. But when someone goes about not occupied with Torah words, then the stone he treads on exclaims: \"Bulach! ('clod', in Russian) How dare you trample me! How are you any higher than I am?\"",
       "hebrew": "אז מען געהט אין גאס דארף מען טראכטען דברי תורה צי אין מחשבה צי אין דבור, דאס ווענדט זיך, צי מען מעג ע\"פ [על פי] דין ריידען דארטען דברי תורה. אבער אז ער געהט און איז ניט פארנומען אין דברי תורה, זאגט אים דער שטיין אויף וועמען ער טרעט: בולאך (גולם) וואס טרעטסטו אויף מיר? מיט וואס ביסטו העכער פאר מיר?"
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 7"
+      "month": "Adar II",
+      "day": "7"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "My father writes in one of his letters: A single act is better than a thousand groans. Our G‑d lives, and Torah and mitzvot are eternal; quit the groaning and work hard in actual avoda, and G‑d will be gracious to you.",
       "hebrew": "אאמו\"ר [אדוני אבי מורי ורבי] כותב באחד ממכתביו: טובה פעולה אחת מאלף אנחות. אלקינו חי ותורה ומצות נצחיים המה, עזוב את האנחה ושקוד בעבודה בפועל ויחנך האלקים."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 8"
+      "month": "Adar II",
+      "day": "8"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "In the b'racha Borei nefashot (p. 95), say al kol ma shebarata, \"kol\" with a cholam, not a kamatz. The intense longing to be bound closely (to a Rebbe) can be satisfied only by learning maamarim of Chassidus which the Rebbe delivers as oral discourses and writes down; simply seeing him is not enough.",
       "hebrew": "בברכת בורא נפשות אומרים על כל מה שבראת - הכ\"ף בחולם ולא בקמץ.\n\nגודל התשוקה להתקשרות, יכול להשביע רק כאשר ילמוד מאמרי החסידות שאומר הרב וכותב, כי בראית פנים בלבד לא סגי."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 9"
+      "month": "Adar II",
+      "day": "9"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Before embarking on a journey from your place of residence, arrange a Chassidic farbrengen and receive a parting blessing from your good friends, and as the familiar expression goes: Chassidim never say farewell, for they never depart from each other. Wherever they are, they are one family.",
       "hebrew": "טרם הנסיעה ממקום מדורו יסדר א חסידישען פארבריינגען, ויקבל ברכת הפרידה מחבריו הטובים, וכמאמר הידוע: חסידים זעגענען זיך ניט, ווייל מען פאהרט זיך קיינמאל ניט פאנאנדער, וואו מ'איז - איז מען איין משפחה."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 10"
+      "month": "Adar II",
+      "day": "10"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Chassidus contains two fundamental principles: (a) Understanding every halacha (Torah law) on its spiritual plane, in its root and ultimate source, namely in the Sefirot and planes in every World according to that World's character, as explained in Chassidus. (b) Comprehending the subject of every halacha in avoda; meaning, although the halacha is an expression of G‑dly wisdom and intelligence and is a law in Torah, nevertheless one must discover in it an avoda - concept to guide man's conduct in his life here in This World.",
       "hebrew": "חסידות כוללת שני ענינים עקרים: א) הבנת כל הלכה בשרשה ומקורה העצמי ברוחניות, היינו בספירות ומדריגות בכל עולם ועולם לפי ענינו כמבואר בדא\"ח [בדברי אלקים חיים]. ב) הבנת ענין כל הלכה בעבודה, היינו שהגם שהיא חכמה ושכל אלקי ודין התורה, מ\"מ [מכל מקום] צריך למצוא בזה ענין בעבודה בהנהגת האדם בחיי עולם זה."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 11"
+      "month": "Adar II",
+      "day": "11"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "The Torah portion dealing with altar offerings begins: \"A man who offers (yakriv) of you an offering to G‑d.\" The logical order of the words should be, \"A man of you who offers, etc.\" The Alter Rebbe answers: \"A man who offers\" - in order that a man become closer to G‑d - \"of you an offering to G‑d\" - he must bring the offering of himself. He must sacrifice his personal \"animal,\" the desire for evil that is called the animal soul.",
       "hebrew": "דער אנהויב פון פרשת הקרבנות איז: אדם כי יקריב מכם קרבן לה'. עס האט דאך געדארפט שטיין אדם מכם כי יקריב גו', זאגט דער אלטער רבי: אדם כי יקריב, בכדי א מענטש זאל ווערען נעהנטער צו השי\"ת [השם יתברך] איז מכם קרבן לה', פון אייך אליין דארף זיין דער קרבן, מקריב זיין זיין אייגענע בהמה, דעם יצר הרע וואס ווערט אנגערופען נפש הבהמית."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 12"
+      "month": "Adar II",
+      "day": "12"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "\"Amalek came forth and fought with Israel at Refidim.\" \"Refidim\" implies \"weakness of hands,\" Israel's neglect of Torah. When Jews become weak in Torah - and Torah study is directed to fulfillment - then Amalek comes and cools the Jew's ardor. \"Amalek fought with Israel.\" The word \"Israel\" is an acronym in Hebrew for \"there are 600,000 letters in the Torah\"; (Every Jew has a letter in the Torah, and this is the reason for the universal Jewish custom of each person writing a letter in a Torah scroll.) Amalek cools this sanctity of Torah. The antidote for this is (Moshe's command to Yehoshua) \"Choose men for us\" - Moshe's men, and \"In every generation there is an extension of Moshe,\" for in every generation there are the \"heads of the thousands of Israel.\" \"And go forth and fight Amalek.\" Note the verbs in singular form (addressing each individual), for Torah is eternal, equally relevant in every generation in every time and place.",
       "hebrew": "ויבוא עמלק וילחם עם ישראל ברפידים, שרפו ידיהם מדברי תורה. אז מ'ווערט שוואך אין תורה, וואס דער לימוד התורה איז דאך על מנת לעשות ולקיים, קומט עמלק און קיהלט אפ דעם אידען, וילחם עם ישראל, ר\"ת [ראשי תיבות] יש ששים רבוא אותיות לתורה, - דכל אחד מישראל יש לו אות אחת בתורה, ולכן נהגו כל ישראל לכתוב אות בתורה, - און עמלק מאכט קאלט קדושת התורה. והעצה לזה בחר לנו אנשים, אנשי משה, ואתפשטותא דמשה בכל דרא, שבכל דור יש ראשי אלפי ישראל. וצא הלחם בעמלק ל' [לשון] יחיד, לפי שהתורה היא נצחית בכל דור ובכל זמן ובכל מקום בשוה."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 13"
+      "month": "Adar II",
+      "day": "13"
     }
   },
   {
@@ -1135,8 +1145,8 @@
       "hebrew": "במגלה שכתב אאזמו\"ר [אדוני אבי זקני מורי ורבי] לא נכתבו עשרת בני המן בעמוד בפ\"ע [בפני עצמו]. וכן לא כל העמודים מתחילים בתיבת \"המלך\".\nבתו\"א [בתורה אור] ביאור ד\"ה [דבור המתחיל] יביאו לבוש סעיף המתחיל והנה בחי' [בחינת] לבוש, צ\"ל [צריך להיות]: \"והיא בחי' [בחינת] פני וזו היא המסתתרת.. שהיא בחי' [בחינת] עתיק בחי' [בחינת] סדכ\"ס [סתימא דכל סתימין]\". ויש נ\"א [נוסח אחר]: \"והנה בחי' [בחינת] ביום ההוא הוא בחי' [בחינת] בינה אימא עילאה המקננת בבריאה בכורסיא אכן מל'[מלכות] דאצילות נעשה עתיק לבריאה שנעתק וגבוה מבריאה ואינה באה בהתגלות בעולם הבריאה שאפילו מבחי' [מבחינת] ביום ההוא הוא בבחי' [בבחינת] העלם והסתר. ומה שנאמר אסתיר פני שכן נקרא מל' [מלכות] דאצי'[לות] לפי שמקבלת מכל הי\"ס [היו\"ד ספירות] ממל'[כות] דכתר דאצילות נעשה כתר מלכות וממל'[כות] שבחכ' [שבחכמה] נעשה חכ' [חכמה] שבמל' [שבמלכות] כו'\"."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 14"
+      "month": "Adar II",
+      "day": "14"
     }
   },
   {
@@ -1145,8 +1155,8 @@
       "hebrew": "אאזמו\"ר [אדוני אבי זקני מורי ורבי] אמר, אשר אדמו\"ר [אדוננו מורנו ורבינו] האמצעי כתב בשביל כל סוג וסוג מהמשכילים והעובדים אשר בעדת החסידים מאמרים וספר מיוחד, לבד שער היחוד ושערי אורה שהם כלליים, ונכתבו עבור כל החסידים: שער היחוד הוא המפתח דתורת החסידות, ושערי אורה - אלף-בית דתורת החסידות."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 15"
+      "month": "Adar II",
+      "day": "15"
     }
   },
   {
@@ -1155,8 +1165,8 @@
       "hebrew": "מעבודת בעל עסק: לעורר בעצמו האמונה ובטחון גמור בהזן ומפרנס לכל בשר, כי הוא ית' [יתברך] יתן לו פרנסתו בריוח, וצריך להיות בשמחה וטוב לבב באמת כאלו פרנסתו כבר מזומנת לפניו."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 16"
+      "month": "Adar II",
+      "day": "16"
     }
   },
   {
@@ -1165,8 +1175,8 @@
       "hebrew": "באמירת תהלים (פז. ז) אומרים כל מעיני הכ\"ף בקמץ, בסדר ברכת המזון - הכ\"ף בחולם."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 17"
+      "month": "Adar II",
+      "day": "17"
     }
   },
   {
@@ -1175,8 +1185,8 @@
       "hebrew": "אאזמו\"ר [אדוני אבי זקני מורי ורבי] כותב באחד ממאמריו: צריכים ללמוד בכל יום תושב\"כ [תורה שבכתב] עם פירש\"י [פירוש רש\"י] שזהו תרומות מדרשי רז\"ל [רבותינו זכרונם לברכה]... ולכל הפחות צריך כל אחד ללמוד מסכת גמרא בשנה."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 18"
+      "month": "Adar II",
+      "day": "18"
     }
   },
   {
@@ -1185,8 +1195,8 @@
       "hebrew": "ר' משה מייזליש סיפר: דער רבי (רבינו הזקן) האט אונז געלערענט, אז דער אלף פון חסידות איז, אויסצוניצען די טבעיות אין עבודה. און ראשית העבודה זאל זיין אויסצוניצען די טבע הכחות, ווי למשל די טבע פון מוח שליט על הלב."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 19"
+      "month": "Adar II",
+      "day": "19"
     }
   },
   {
@@ -1195,8 +1205,8 @@
       "hebrew": "רבינו הזקן סיפר: מהתורות שאמר מורי (הרב המגיד) לפני ביחידות, היתה תורה על הפסוק אש תמיד תוקד על המזבח לא תכבה, דהגם שהאש יורד מלמעלה באתערותא דלעילא, מצוה להביא מן ההדיוט, כי באתערותא דלתתא אתערותא דלעילא, כי רוח אייתי רוח ואמשיך רוח, רוח מלמטה אייתי רוח מלעילא, ואמשיך רוח מלעילא ולעילא. ומצות עשה להבעיר אש על המזבח, מזבח הוא אדם כי יקריב מכם, וההקרבה עצמה אינה מספקת, וצריכים להבעיר אש על הקרבן אשר מכם, ואש זה לא תכבה, שהיא מכבה את ה\"לא\".\n\nאת התורה הזאת אמר מורי לפני עשר פעמים - כדי לחקקה בעשר כחות נפשי - ויאמר לי, אתה תלמידי הנך נצרך להאש תמיד, לפי שעליך הוטל לכבות לא (של המנגדים) גדול. אתה תכבה את הלא והשי\"ת [והשם יתברך] יהפוך את הלא להן."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 20"
+      "month": "Adar II",
+      "day": "20"
     }
   },
   {
@@ -1205,8 +1215,8 @@
       "hebrew": "הצ\"צ [הצמח צדק] אמר בסיום ספור הנ\"ל [הנזכר לעיל] (כ' אד\"ש [אדר שני]): זקני - רבינו הזקן - הוא משה רבינו דתורת חסידות חב\"ד. במשה אמרז\"ל [אמרו רבותינו זכרונם לברכה] שהתורה ניתנה לו, אלא שנהג בה טוב עין. אש תמיד האלקי הנוגע לתורת חסידות חב\"ד נתן הה\"מ [הרב המגיד] לזקני, וזקני נהג בה טוב עין ויתנה לכל העוסקים בתורת החסידות. ברור לי אשר כל הלומד עם חברו ומעורר בו את האש תמיד האלקי, הנה שכרו אתו אשר זכותו זה לא תכבה לעד."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 21"
+      "month": "Adar II",
+      "day": "21"
     }
   },
   {
@@ -1215,8 +1225,8 @@
       "hebrew": "ברכת כהנים הוא המשכת המוחין, הגבהת הידים הוא העלאת המדות, ומברכים לישראל שהם בני מלכים מל' [מלכות], הרי פרצוף שלם של עשר ספירות."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 22"
+      "month": "Adar II",
+      "day": "22"
     }
   },
   {
@@ -1225,8 +1235,8 @@
       "hebrew": "אאמו\"ר [אדוני אבי מורי ורבי] אמר לרב אחד - בעל עבודה ומתמיד בלימודו: א רב בעדארף בכל עת ובכל רגע געדיינקען, אז תמיד שטייט ער אויף דעם שוועל וואס צווישען מזכי הרבים און ח\"ו [חס ושלום] מחטיאי הרבים, אויף דעם שוועל פון עומק רום און עומק תחת, און אלע ענינים בעדארף נוגע זיין אין פנימית נקודת הנפש ממש, ווייל בנפשו הוא."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 23"
+      "month": "Adar II",
+      "day": "23"
     }
   },
   {
@@ -1235,8 +1245,8 @@
       "hebrew": "באמירת אנא בכח צריך לראות - או לצייר במחשבה - השמות, שהם הר\"ת [הראשי תיבות], אבל לא לאמרם."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 24"
+      "month": "Adar II",
+      "day": "24"
     }
   },
   {
@@ -1245,8 +1255,8 @@
       "hebrew": "החסיד ר' מרדכי האראדאקער סיפר: פתגם הראשון ששמענו מרבינו הזקן כשבאנו לליאזנא הי': וואס מען טאר ניט טאר מען ניט, און וואס מען מעג דארף מען ניט. - כשלש ארבע שנים עבדנו בזה עד שהבאנו אופן זה בעניני חיינו, ורק אז נכנסנו ליחידות לשאול דרך בעבודה."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 25"
+      "month": "Adar II",
+      "day": "25"
     }
   },
   {
@@ -1255,42 +1265,42 @@
       "hebrew": "כל הקדוש בעם אלקי אברהם ויסוד בית ישראל, בהעמדת דור ישרים וחנוכם, בכשרות האוכל, ואצילות טוהר קדושת השבת, מסר ונתן השם הנכבד והנורא על ידי נשי ישראל לשמרם ולעבדם.\nהאשה אשר תמלא חובתה ותעודתה בחיי המשפחה, בהנהגת הבית ובחנוך על פי התורה, עליה הכתוב אומר חכמות נשים בנתה ביתה."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 26"
+      "month": "Adar II",
+      "day": "26"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Bless Rosh Chodesh Nissan; say the entire Tehillim in the early morning. Day of farbrengen. Haftora: Ko amar...olat tamid. From my father's sichot: The sin of Aharon's sons was \"...when they drew close before G‑d and died.\" This was ratzo without shov, return. The truth is that when coming \"before G‑d\" there must be tit'haru, one must be clean and pure, and (the closeness) must be evident in actual deeds. That which is on the very highest planes descends to the very lowest depths; hence ratzo without shov is death. Continuing, G‑d commands Moshe (Vayikra 16:2) to speak to Aharon. The letters in the name Aharon are those in the word nir'eh, \"visible,\" which in terms of the powers of the soul refers to intellect. Moshe is to tell Aharon that in order to enter the sacred (area), even \"within the curtain\" - meaning the state prior to tzimtzum - he must know that... ...upon the ark (ha'aron - the letters of this word spelling nir'eh, \"visible\" - i.e. intellect) there is a kaporet, a covering, an inner intent and purpose of a concealment, expressed in the words, \"the face of (or \"the inner aspect of\") the kaporet.\" For this reason one \"should not die,\" i.e. he should not stop with ratzo, the entering alone - for \"...in a cloud will I appear on the kaporet;\" the inner intent and purpose of the First tzimtzum is revelation. The introductory word to all this is v'al, \"he shall not (enter).\" This expression of negation indicates total nullification of self, bitul, doing what Chassidus demands, not what his intelligence dictates. Then \"he shall enter the sacred (area).\"",
       "hebrew": "משיחת אאמו\"ר [אדוני אבי מורי ורבי]: חטא בני אהרן הי' בקרבתם לפני ה' וימותו, רצוא בלי שוב. דער אמת איז אז מ'קומט לפני ה' דארף זיין תטהרו, ריין און קלאהר, עס מוז זיך דערהערען אין מעשה בפועל, כל הגבוה גבוה ביותר יורד למטה מטה ביותר, ורצוא בלי שוב, היא מיתה. ועל זה בא ציווי ה' אל משה (ויקרא טז ב) שיאמר לאהרן, אותיות נראה, ובכחות הנפש הוא השכלה, לאמר, בשביל לבוא אל הקדש גם מבית לפרוכת שהוא לפני הצמצום, דארף מען וויסען אז על הארן, אותיות נראה, השכלה, איז פאראן א כפורת, א כוונה פון א פארשטעל, וואס דאס איז דער פני הכפורת, אשר על כן ולא ימות, זאל מען ניט בלייבען באם רצוא אליין, כי בענן אראה על הכפורת, דער צמצום הראשון איז כוונתו הגילוי, און דער מבוא צו דעם איז דער ואל, ביטול עצמי, טאן וואס חסידות הייסט, ניט דאס וואס דער שכל זאגט, דאן איז יבוא אל הקדש."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 27"
+      "month": "Adar II",
+      "day": "27"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "We do recite the Harachaman of brit mila (p. 95). (From a sicha at a brit mila repast): At a brit mila we say, \"Just as he has entered into the Covenant so may he enter into Torah, into marriage and into good deeds\" (p. 141). It is our custom to make an advance payment on tuition fees for the boy's studies. (Here the Rebbe gave a sum of money and said): This is for the Yeshiva.",
       "hebrew": "הרחמן דברית מילה - אומרים.\n(משיחה בסעודת ברית מילה): בברית מילה אומרים כשם שנכנס לברית כן יכנס לתורה ולחופה ולמעשים טובים. ונוהגים אצלנו, אז מען גיט דמי קדימה אז דער אינגעל זאל לערנען - (ונתן כ\"ק [כבוד קדושת] אדמו\"ר [אדוננו מורנו ורבינו] שליט\"א [שיחיה לימים טובים ארוכים] סכום מסוים באמרו): - דאס איז פאר דער ישיבה."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 28"
+      "month": "Adar II",
+      "day": "28"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "My father said at a farbrengen: G‑d created the universe and all physical objects yeish mei'ayin, something from nothing. Jews must transform the \"something\" into \"nothing,\" transform the material into spiritual. The avoda of turning the physical into spiritual and making the physical into an instrument for the spiritual, is a personal obligation. Every single person, individually, is required to do this.",
       "hebrew": "באחת ההתועדות אמר אאמו\"ר [אדוני אבי מורי ורבי]: הקב\"ה [הקדוש ברוך הוא] ברא את העולם וכל הדברים הגשמיים מאין ליש, און אידען דארפען מאכען מיש לאין, פון די גשמיות מאכען רוחניות. די עבודה מאכן פון גשמיות רוחניות און דעם גשמי מאכען א כלי פאר רוחניות, דאס איז א חובת גברא, אין דעם איז מחויב כל אחד ואחד בפרט."
     },
     "date": {
-      "month": "Adar",
-      "day": "Sheini 29"
+      "month": "Adar II",
+      "day": "29"
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "We do not say tachanun all month. After saying the nassi (p. 368), we say the Yehi ratzon (p. 371) which is printed in Torah Or Siddur. Kohanin and levi'im also say it. My father instructed his brother-in-law, R. Moshe Horenstein, a kohein, to say Yehi ratzon after the nassi, noting that even a kohein or leivi must say it, for it is related to ibur.",
       "hebrew": "אאמו\"ר [אדוני אבי מורי ורבי] ציוה לגיסו הרב משה הארענשטיין הכהן לאמר היהי רצון שאחר הנשיא, ואמר לו כי אפילו כהן ולוי צריך לאמרו, כי זה שייך לעיבור."
     },
@@ -1300,7 +1310,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Yahrzeit of my father the Rebbe, (R. Sholom Dovber) who passed away on Saturday night, 2 Nissan 5680 (1920), in Rostov, and is interred there. The first maamar he (R. Sholom Dovber) delivered after the passing of his father (the Rebbe Maharash) was on the second day of Chol Hamoed Sukot 5643 (1882), beginning Keter yitnu l'cha etc. The last public maamar in his lifetime was delivered at the Purim repast 5680, beginning Reishit goyim Amalek...keitz sam lachoshech.",
       "hebrew": "הילולא של כ\"ק [כבוד קדשת] אאמו\"ר [אדוני אבי מורי ורבי]. נסתלק אור ליום א' ב' ניסן שנת תר\"ף בראסטאב. ושם מ\"כ [מנוחתו כבוד.].\nמאמר הראשון אשר אמרו ברבים, אחרי הסתלקות אביו: ביום השני דחה\"ס [דחג הסוכות] תרמ\"ג, ומתחיל כתר יתנו לך כו'. מאמר - ברבים - האחרון בהיותו בעלמא דין: בסעודת פורים תר\"ף, ומתחיל ראשית גוים עמלק גו' קץ שם לחשך."
     },
@@ -1310,7 +1320,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Among my father's regular Torah-study sessions: A parsha of Chumash with Rashi daily; reciting Tanach by heart - a chapter each of Torah, Nevi'im and Ketuvim; a chapter of Mishnayot; a regular session in profound study of Gemara - two folio pages weekly, another in rapid study of Gemara - three pages daily; a session of study of the Jerusalem Talmud; a regular period for Codes, but not daily. During the course of the year he would conclude the entire Midrash Raba, \"borrowing\" from the long sedrot and \"repaying\" on the shorter ones.",
       "hebrew": "משיעורי אאמו\"ר [אדוני אבי מורי ורבי]: בכל יום פרשה חומש עם פירש\"י [פירוש רש\"י]. אמירת תנ\"ך [תורה נביאים כתובים] בעל פה: קאפ' [קאפיטל] אחד מתורה וכן מנביאים וכן מכתובים. פרק אחד משניות. שיעור גמרא לעיוני ב' דפים לשבוע, שיעור למיגרס ג' דפים ליום. שיעור בירושלמי. גם שיעור - לא בכ\"י [בכל יום] - בפוסקים. במשך השנה הי' [היה] מסיים כל המד\"ר [המדרש רבה]: לווה בסדרות הארוכות ופורע בקצרות."
     },
@@ -1320,7 +1330,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "The avoda of laymen has two categories: 1) Avoda with self: When actually at work, in a free moment in his store, for example, he should study a Mishna or two, or a chapter of Tanya. He should commit some Torah to memory - for example, Chumash, Mishna, Tehillim, Tanya, so that he will be able to review these while in the marketplace, the street or wherever. 2) Avoda with another: When discussing business, he should turn the conversation towards introducing a story with content, and seek some reason or opportunity to stimulate the other to study Torah, or to do similar activities.",
       "hebrew": "עבודת בעלי עסקים מתחלקת לשני סעיפים עיקרים:\nא) העבודה עם עצמו. בעת עסקו ממש בשעה הפנוי'[ה], בישבו בחנות וכדומה, ילמוד משנה משניות פרק תניא, ויהי לו איזה דברי תורה, כמו חומש משניות תניא, שיהי'[ה] בקי בהם בעל פה, למען שיוכל לחזור עליהם בהלכו ברחוב, בשוק וכדומה.\nב) העבודה עם זולתו. בעת הדבור בעניני עסק יסבב הדבור לספר איזה ספור תוכני, ולמצוא עילה וסיבה לעורר ע\"ד [על דבר] למוד וכיוצא בזה."
     },
@@ -1330,7 +1340,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "In Birkat Hamazon, in Retzei (p. 91), say baal hayeshuot (\"b\" in the first word) u'vaal hanechamot (\"v\" in the second word). My grandfather commented on the saying, \"The place of man does not honor him; rather man honors his place.\" The term, kavod, \"honor,\" has two implications. One is kaveid, \"liver,\" as the Torah says, \"Pharaoh's heart is kaveid (\"heavy\"), and the Sages comment, \"His heart became like a liver,\" (cold, insensitive). The other meaning is kavod, \"honor,\" signifying the revelation of a supernal encompassing illumination. \"The place of man does not honor him\": Place (and circumstances) do not make him cold and insensitive. Rather, \"Man honors his place,\" man has the capacity and the power to illuminate his environment (\"place\") with the light of Torah and avoda. When the soul descends into the body, it is administered an oath to be a tzadik, This oath, sh'vua, implies sova, \"satiety\"; the person is generously endowed with eminent powers to be able to fulfill G‑d's intention in having the soul descend (into the material world). And just as it is with the soul's descent, so is it also with every person, in whatever place he may be.",
       "hebrew": "ברצה דברהמ\"ז [דברכת המזון] אומרים \"בעל הישועות\" - בית דגושה \"ובעל הנחמות\" - בית רפוי'[ה].\nאאזמו\"ר [אדוני אבי זקני מורי ורבי] אמר במרז\"ל [במאמר רבותינו זכרונם לברכה] לא מקומו של אדם מכבדו אלא אדם מכבד את מקומו, כבוד יש בו שני פירושים: לשון כבדא כמרז\"ל [כמאמר רבותינו זכרונם לברכה] כבד לב פרעה נעשה לבו ככבד. ולשון כבוד, גילוי אור מקיף נעלה. וזהו: לא מקומו של אדם מכבדו כלומר מקררו, אלא אדם מכבד את מקומו, שניתן לו כח ועוז להאיר את מקומו באור תורה ועבודה. כשם דבירידת הנשמה בגוף משביעים אותו תהא צדיק, דשבועה זו הוא ענין השובע בכחות נעלים שתוכל להשלים כונת ירידתה, הנה כן הוא בכל אדם ואדם במקום שהוא."
     },
@@ -1340,7 +1350,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Experience has shown that with less speculation, but working with orderliness and firmness, in accord with the \"pleasantness\" of Torah (with the \"right hand bringing close and the left hand rejecting\") one is certain to achieve results, especially in matters concerning the fundamentals of our religion.",
       "hebrew": "הנסיון הראה, אשר כשממעטים בחקירות, ועובדים בסדר ובתוקף, על פי הנעימות של תורה, ימין מקרבת ושמאל דוחה, אזי פועלים בודאי, ובפרט בענינים העיקרים מעקרי הדת."
     },
@@ -1350,7 +1360,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Text of Vay'hi binsoa (p. 185, par. Al): v'chirtzon kol amcha beit yisrael. The Alter Rebbe's family name was Baruchovitch. The Mitteler Rebbe's family name was Schneuri. The Tzemach Tzedek's family name was Schneersohn.",
       "hebrew": "נוסח ויהי בנסוע: וכרצון כל עמך בית ישראל.\nכינוי משפחה של רבינו הזקן: ברוכאוויטש.\nכינוי משפחה של בנו אדמו\"ר [אדוננו מורנו ורבינו] האמצעי: שניאורי.\nכינוי משפחה של הצ\"צ [הצמח צדק]: שניאורסאהן."
     },
@@ -1360,7 +1370,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Every soul has its particular avoda, in the areas of intellect and emotions, in accordance with that soul's nature and character. It is written: \"From my foes have You given me wisdom\"; from the evil tendencies one detects in his natural traits, he can become wise and know how to handle the correction of these traits, and how to subordinate his powers, in the service of G‑d.",
       "hebrew": "כל נשמה יש לה עבודה פרטית במוחין ומדות כפי טבעה וענינה. וכתיב מאויבי תחכמני, מההטיות הרעות שמרגיש במדותיו הטבעיות, מזה מתחכם ויודע איך לכלכל תקון מדותיו ושעבוד הכחות שלו בעבודת השי\"ת [השם יתברך]."
     },
@@ -1370,7 +1380,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Jewish wealth is not houses and gold. The everlasting Jewish wealth is: Being Jews who keep Torah and Mitzvot, and bringing into the world children and grandchildren who keep Torah and Mitzvot.",
       "hebrew": "ניט הייזער און געלד איז דער אידישער רייכטום. דער אידישער אייביקער רייכטום איז, אז מען איז אידען וואס היטען אפ תורה און מצות און מ'בריינגט אויף דער וועלט קינדער און אייניקלאך וואס היטען אפ תורה און מצות."
     },
@@ -1380,7 +1390,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "On the subject of the campaign to popularize the observance of taharat hamishpacha in your community, ponder this deeply: Let us imagine that G‑d were to give you the opportunity to save a Jewish community from extinction (G‑d forbid), you would certainly be willing to risk your life for this and you would thank and praise Him for His great kindness in offering you an opportunity of such enormous merit. The same then holds true to an even greater degree with regard to the campaign for taharat hamishpacha; it is an endeavor which literally saves lives.",
       "hebrew": "בדבר התעמולה בענין טהרת המשפחה במושבו, יתבונן בזה: אילו יצוייר, אשר ה' אנה לידו להציל מושב יהודים מכליון, ר\"ל [רחמנא לצלן], הנה בטח הי'[ה] מוסר נפשו על זה, והי'[ה] מהלל ומשבח את השי\"ת [השם יתברך], על גודל החסד לזכותו בזכות גדול כזה. כן ויותר מכן היא תעמולה זו, שהיא הצלת נפשות ממש."
     },
@@ -1390,7 +1400,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "On his birthday, one should spend time in seclusion. He should recall his experiences and think deeply into them. He should then repent and correct those (of his past deeds) that need correction and repentance.",
       "hebrew": "ביום ההולדת, על האדם להתבודד, ולהעלות זכרונותיו ולהתבונן בהם, והצריכים תקון ותשובה ישוב ויתקנם."
     },
@@ -1400,7 +1410,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "From the time of the exodus from Egypt the Jewish people are called the \"Army of G‑d.\" They are also called \"servants.\" The difference is this: A servant performs his master's service which may be on many different levels; he may work at the delicate craft of threading pearls, he may do other kinds of expert work or he may perform simple tasks. His service involves great toil and labor, but this does not constitute mesirat nefesh - a willingness to sacrifice self, to lay down one's life. Soldiers are servants who serve with great toil and labor and with self sacrifice, in wars of defense or attack. The soldiers stand at their posts with the highest degree of stalwart determination, undeterred by the opposing enemy; their service is not one of comprehension, for they act according to the orders of their commander. The Jews in Egypt were utterly degraded under their severe and bitter affliction. Yet, despite it all, they did not change their names, their language, or their distinctive clothing. With absolute determination they stood at their posts, for they knew that G‑d had promised to redeem them. Whoever behaves as they did under such circumstances is a soldier in the Army of G‑d, and the Al-mighty will come to his assistance in a manner that manifests itself in nature - yet transcends nature.",
       "hebrew": "מזמן יציאת מצרים נקראו בני ישראל צבאות ה'. ההפרש בין עבדים - שנקראו כן בנ\"י [בני ישראל] - וצבאות הוא: עבד עושה עבודת רבו - ובזה כמה דרגות נוקב מרגליות, עושה שאר מלאכות, עושה מלאכות פשוטות - ויש בזה יגיעה ועמל רב, אבל אין זה ענין של מסירת נפש. צבא הם עבדים שעובדים ביגיעה רבה ועמל ובמסירת נפש, הן במלחמת הגנה והן במלחמת תנופה, ועומדים על משמרתם בתכלית התוקף מבלי התפעל מהמנגד ושונא, ועבודתם זו אינה ענין של השגה, כי הם מתנהגים ע\"פ [על פי] הוראת מצביאם. והנה נש\"י [נשמות ישראל] במצרים היו בתכלית השפלות בעינוים קשים ומרים, ועם זה לא שינו שמם ולשונם ולבושיהם, ועמדו על משמרתם בתכלית החוזק, כי ידעו שהקדוש ברוך הוא הבטיח לגאול אותם, והמתנהג כזה במצב זה הוא מצבא ה', דה' עוזרו בדרך מלמעלה מן הטבע בטבע."
     },
@@ -1410,7 +1420,7 @@
     }
   },
   {
-    "hayom-yom": {
+    "hayomYom": {
       "english": "Yahrzeit of the Rebbe Tzemach Tzedek. He passed away in the year 5626 (1866) in Lubavitch and was interred there. My grandfather related: At the age of 12 the Tzemach Tzedek began to write scholarly dissertations in the field of Talmud and halacha as well as in chassidic philosophy.",
       "hebrew": "הילולא של כ\"ק [כבוד קדושת] הצ\"צ [הצמח צדק]. נסתלק שנת תרכ\"ו בליובאוויטש, ושם מ\"כ [מנוחתו כבוד].\nמספורי אאזמו\"ר [אדוני אבי זקני מורי ורבי]: הצ\"צ [הצמח צדק] התחיל לכתוב נגלה ודא\"ח [ודברי אלקים חיים] בהיותו בן שתים עשרה שנה."
     },
@@ -3656,7 +3666,7 @@
     },
     "date": {
       "month": "Cheshvan",
-      "day": "29"
+      "day": "30"
     }
   },
   {

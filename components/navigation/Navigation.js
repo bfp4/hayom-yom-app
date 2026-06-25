@@ -1,15 +1,17 @@
-import React, { useEffect, useRef, useState } from "react"
-import axios from "axios"
+import React, { useLayoutEffect, useEffect, useRef, useState } from "react"
 import { Pressable, View } from "react-native"
 import NetInfo from "@react-native-community/netinfo"
 import { NavigationCon, DateText } from "./styles"
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome"
-import { faAngleDoubleRight, faAngleDoubleLeft } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleRight, faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons"
 import { useDispatch, useSelector } from "react-redux"
 import constants from "../../assets/constants"
 import * as actions from "../../redux/actions"
 
 import Card from "../card/Card"
+import CalendarModal from "../calendar/CalendarModal"
+import { toDateString, offsetGregorianDate } from "../../utils/dateHelpers"
+import { getCachedHebrewDate, fetchHebrewDate } from "../../utils/hebrewDateCache"
 
 function Navigation() {
     const dispatch = useDispatch()
@@ -17,74 +19,105 @@ function Navigation() {
     const nowDateText = useSelector(state => state.nowDateText)
     const nowHebrewDateText = useSelector(state => state.nowHebrewDateText)
     const loading = useSelector(state => state.loading)
-    const [daysFromToday, setDaysFromToday] = useState(0)
-    const [displayDateText, setDisplayDateText] = useState(nowDateText)
-    const [displayHebrewDateText, setDisplayHebrewDateText] = useState(nowHebrewDateText)
+    const [calendarVisible, setCalendarVisible] = useState(false)
     const iconColor = loading ? constants.colors.lightGray : constants.colors.blues
     const pendingRetry = useRef(false)
+    const requestIdRef = useRef(0)
+
+    const setDateWithLoading = (day, month, year) => {
+        const date = { day, month, year }
+        if (!getCachedHebrewDate(date)) {
+            dispatch(actions.changeLoading(true))
+        }
+        dispatch(actions.setDate(day, month, year))
+    }
 
     const dayForward = () => {
-        setDaysFromToday(prev => prev + 1)
+        const next = offsetGregorianDate(nowDate, 1)
+        setDateWithLoading(next.day, next.month, next.year)
     }
 
     const dayBack = () => {
-        setDaysFromToday(prev => prev - 1)
+        const prev = offsetGregorianDate(nowDate, -1)
+        setDateWithLoading(prev.day, prev.month, prev.year)
     }
 
-    const fetchHebrewDate = async (date) => {
-        const res = await axios(`https://www.hebcal.com/converter?cfg=json&gy=${date.year}&gm=${date.month}&gd=${date.day}&g2h=1`)
-        const data = await res.data
-        await dispatch(actions.getData(data.hd, data.hm, data.hy))
-        await dispatch(actions.changeLoading(false))
+    const applyHebrewDate = (data) => {
+        dispatch(actions.getData(data.hd, data.hm, data.hy))
+        dispatch(actions.changeLoading(false))
         pendingRetry.current = false
     }
 
-    useEffect(() => {
-        dispatch(actions.changeLoading(true))
-        dispatch(actions.getNewDate(daysFromToday))
-    }, [daysFromToday]) 
-
     const isNetworkError = (error) => !error.response
 
-    useEffect(() => {
-        if(!nowDateText) return
+    useLayoutEffect(() => {
+        if (!nowDate?.day) return
+
+        const requestId = ++requestIdRef.current
+        const isCurrentRequest = () => requestId === requestIdRef.current
+
+        const cached = getCachedHebrewDate(nowDate)
+        console.log("cached", cached)
+        if (cached) {
+            applyHebrewDate(cached)
+            return
+        }
+
+        dispatch(actions.changeLoading(true))
+
         ;(async () => {
             try {
-                await fetchHebrewDate(nowDate)
+                const data = await fetchHebrewDate(nowDate)
+                if (!isCurrentRequest()) return
+                applyHebrewDate(data)
             } catch (error) {
                 console.error(error)
+                if (!isCurrentRequest()) return
                 if (isNetworkError(error)) {
                     pendingRetry.current = true
                 }
+                dispatch(actions.changeLoading(false))
             }
         })()
-    }, [nowDateText])
+    }, [nowDate.day, nowDate.month, nowDate.year, dispatch])
 
     useEffect(() => {
         const unsubscribe = NetInfo.addEventListener(state => {
-            if (state.isConnected && pendingRetry.current) {
-                pendingRetry.current = false
-                ;(async () => {
-                    try {
-                        await fetchHebrewDate(nowDate)
-                    } catch (error) {
-                        console.error(error)
-                        if (isNetworkError(error)) {
-                            pendingRetry.current = true
-                        }
+            if (!state.isConnected || !pendingRetry.current) return
+
+            pendingRetry.current = false
+            const requestId = ++requestIdRef.current
+            const isCurrentRequest = () => requestId === requestIdRef.current
+
+            dispatch(actions.changeLoading(true))
+
+            ;(async () => {
+                try {
+                    const data = await fetchHebrewDate(nowDate)
+                    if (!isCurrentRequest()) return
+                    applyHebrewDate(data)
+                } catch (error) {
+                    console.error(error)
+                    if (!isCurrentRequest()) return
+                    if (isNetworkError(error)) {
+                        pendingRetry.current = true
                     }
-                })()
-            }
+                    dispatch(actions.changeLoading(false))
+                }
+            })()
         })
         return () => unsubscribe()
-    }, [nowDate])
+    }, [nowDate.day, nowDate.month, nowDate.year, dispatch])
 
-    useEffect(() => {
-        if (!loading) {
-            setDisplayDateText(nowDateText)
-            setDisplayHebrewDateText(nowHebrewDateText)
+    const onSelectDate = (day) => {
+        const [year, month, dayNum] = day.dateString.split("-").map(Number)
+        if (nowDate.day === dayNum && nowDate.month === month && nowDate.year === year) {
+            setCalendarVisible(false)
+            return
         }
-    }, [loading, nowDateText, nowHebrewDateText])
+        setDateWithLoading(dayNum, month, year)
+        setCalendarVisible(false)
+    }
 
     return (
         <NavigationCon>
@@ -94,9 +127,16 @@ function Navigation() {
                 </View>
             </Pressable>
 
-            <Pressable onPress={() => setDaysFromToday(0)} hitSlop={8} disabled={loading} style={{ width: '50%', marginHorizontal: 15 }}>
+            <Pressable
+                onPress={() => setCalendarVisible(true)}
+                hitSlop={8}
+                disabled={loading}
+                style={{ width: '50%', marginHorizontal: 15 }}
+            >
                 <Card>
-                    <DateText>{displayDateText}{"\n"}{displayHebrewDateText}</DateText>
+                    <DateText>
+                        {loading ? "" : `${nowDateText}\n${nowHebrewDateText}`}
+                    </DateText>
                 </Card>
             </Pressable>
 
@@ -105,7 +145,14 @@ function Navigation() {
                     <FontAwesomeIcon icon={faAngleDoubleRight} size={32} color={iconColor} />
                 </View>
             </Pressable>
-        </NavigationCon>   
+
+            <CalendarModal
+                visible={calendarVisible}
+                initialDate={toDateString(nowDate)}
+                onClose={() => setCalendarVisible(false)}
+                onSelectDate={onSelectDate}
+            />
+        </NavigationCon>
     )
 }
 
