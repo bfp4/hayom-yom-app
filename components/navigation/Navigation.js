@@ -57,7 +57,6 @@ function Navigation() {
         const isCurrentRequest = () => requestId === requestIdRef.current
 
         const cached = getCachedHebrewDate(nowDate)
-        console.log("cached", cached)
         if (cached) {
             applyHebrewDate(cached)
             return
