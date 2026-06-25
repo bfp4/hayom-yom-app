@@ -66,7 +66,7 @@ export async function scheduleDailyNotification(hour, minute) {
     await Notifications.scheduleNotificationAsync({
         content: {
             title: "Hayom Yom",
-            body: "Today's Hayom Yom is ready",
+            body: "Learn Today's Hayom Yom",
             data: { screen: "Hayom Yom" },
         },
         trigger: {
